@@ -191,19 +191,8 @@
                                         <img alt="" src="../images/cabecera/logo.svg">
                                     </div></td>
                                         <td>República Bolivariana de Venezuela.<br>Ministerio del Poder Popular para la Educación.<br>UE "Libertador Bolívar"<br>Miraflores, estado Monagas</td>
-                                        <td></td>
+                                        <td><div id="output"></div></td>
                                     </tr>
-<div id="output"></div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="../js/jquery.qrcode.min.js"></script>
-<script>
-	var URLactual = jQuery(location).attr('href');
-
-jQuery(function(){
-	jQuery('#output').qrcode(URLactual);
-})
-</script>
                                     <tr>
                                         <td></td>
                                         <td>Inglés y otras Lenguas Extranjeras </td>
@@ -411,6 +400,8 @@ jQuery(function(){
         <!-- Archivos de Efectos -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
         <script type="text/javascript" src="../js/jquery.qrcode.min.js"></script>
+	<script type="text/javascript" src="../js/qrcode.js"></script>
+	<script type="text/javascript" src="../js/jquery.qrcode.js"></script>
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/mixIt.js"></script>
