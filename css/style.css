@@ -2620,6 +2620,9 @@ ul.date {
     font-size: 16px;
     padding: 31px 0;
 }
+.schedule-table tbody tr td div{
+   
+}
 .schedule-table tbody tr:nth-child(4) td{
     background: #f2f2f2;
 }
