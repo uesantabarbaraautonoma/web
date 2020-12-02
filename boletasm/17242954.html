@@ -191,13 +191,11 @@
                                         <img alt="" src="../images/cabecera/logo.svg">
                                     </div></td>
                                         <td>República Bolivariana de Venezuela.<br>Ministerio del Poder Popular para la Educación.<br>UE "Libertador Bolívar"<br>Miraflores, estado Monagas</td>
-                                        <td><script>
-	var URLactual = jQuery(location).attr('href');
-
-jQuery(function(){
-	jQuery('#output').qrcode(URLactual);
-})
-</script></td>
+                                        <td><div id="output"></div>
+					<script> var URLactual = jQuery(location).attr('href');
+						jQuery(function(){
+							jQuery('#output').qrcode(URLactual);
+						})</script></td>
                                     </tr>
 
                                     <tr>
