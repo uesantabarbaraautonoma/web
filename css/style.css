@@ -2656,10 +2656,6 @@ ul.date {
 }
 .schedule-table2 tbody tr td{
     background: #fafafa none repeat scroll 0 0;
-    border-left: 1px solid #919191;
-    border-right: 1px solid #919191;
-    border-top: 1px solid #919191;
-    border-bottom: 1px solid #919191;
     color: #808080;
     font-size: 16px;
     padding: 31px 0;
