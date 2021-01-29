@@ -207,3 +207,14 @@
         wow.init();
     }
 })(jQuery);
+
+function capturar()
+    {
+        // Obtenemos el valor por el id
+        var porId=document.getElementById("nombre").value;
+        var parte1='https://uelibertadorbolivar.github.io/web/boletasm/'
+        var parte2='.html'
+        var todo=parte1+porId+parte2;
+        document.getElementById("resultado").innerHTML= parte1+porId+parte2;
+        window.location=document.getElementById("resultado").innerHTML;
+    }
