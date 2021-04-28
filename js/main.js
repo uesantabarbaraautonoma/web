@@ -20,7 +20,6 @@
         var amountMovedX = (e.pageX * -1 / 60);
         var amountMovedY = (e.pageY * +1 / 20);
         $('.breadcrumb-section,.slider-wrap').css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-
     });
     //----------------------------------------
     // Class Sort
