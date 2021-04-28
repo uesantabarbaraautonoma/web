@@ -216,13 +216,3 @@ function capturar()
         document.getElementById("resultado").innerHTML= parte1+porId+parte2;
         window.location=document.getElementById("resultado").innerHTML;
     }
-
-function imprim1(imp1){
-var printContents = document.getElementById('imp1').innerHTML;
-        w = window.open();
-        w.document.write(printContents);
-        w.document.close(); // necessary for IE >= 10
-        w.focus(); // necessary for IE >= 10
-		w.print();
-		w.close();
-        return true;}
