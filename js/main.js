@@ -221,15 +221,6 @@ function imprim1(imp1){
 var printContents = document.getElementById('imp1').innerHTML;
         w = window.open();
         w.document.write(printContents);
-	w.document.write('<link rel="stylesheet" href="../css/font-awesome.min.css">');
-	w.document.write('<link rel="stylesheet" href="../css/bootstrap.min.css">');
-	w.document.write('<link rel="stylesheet" href="../css/magnific-popup.css">');
-	w.document.write('<link rel="stylesheet" href="../css/animate.css">');
-	w.document.write('<link rel="stylesheet" href="../css/fonts.css">');
-	w.document.write('<link rel="stylesheet" href="../css/owl.carousel.css">');
-	w.document.write('<link rel="stylesheet" href="../css/preset.css">');
-	w.document.write('<link rel="stylesheet" href="../css/style.css">');
-	w.document.write('<link rel="stylesheet" href="../css/responsive.css">');
         w.document.close(); // necessary for IE >= 10
         w.focus(); // necessary for IE >= 10
 		w.print();
