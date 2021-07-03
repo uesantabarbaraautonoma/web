@@ -229,7 +229,7 @@ function capturar2()
 function capturar3()
     {
         // Obtenemos el valor por el id
-        var porId=document.getElementById("nombre2").value;
+        var porId=document.getElementById("nombre3").value;
         var parte1='https://uelibertadorbolivar.github.io/web/boletasm/'
         var parte2='.pdf'
         var todo=parte1+porId+parte2;
