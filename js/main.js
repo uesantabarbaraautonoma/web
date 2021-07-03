@@ -209,30 +209,30 @@
 function capturar1()
     {
         // Obtenemos el valor por el id
-        var porId=document.getElementById("nombre").value;
+        var porId=document.getElementById("nombre1").value;
         var parte1='https://uelibertadorbolivar.github.io/web/boletasi/'
         var parte2='.pdf'
         var todo=parte1+porId+parte2;
-        document.getElementById("resultado").innerHTML= parte1+porId+parte2;
-        window.location=document.getElementById("resultado").innerHTML;
+        document.getElementById("resultado1").innerHTML= parte1+porId+parte2;
+        window.location=document.getElementById("resultado1").innerHTML;
     }
 function capturar2()
     {
         // Obtenemos el valor por el id
-        var porId=document.getElementById("nombre").value;
+        var porId=document.getElementById("nombre2").value;
         var parte1='https://uelibertadorbolivar.github.io/web/boletasp/'
         var parte2='.pdf'
         var todo=parte1+porId+parte2;
-        document.getElementById("resultado").innerHTML= parte1+porId+parte2;
-        window.location=document.getElementById("resultado").innerHTML;
+        document.getElementById("resultado2").innerHTML= parte1+porId+parte2;
+        window.location=document.getElementById("resultado2").innerHTML;
     }
 function capturar3()
     {
         // Obtenemos el valor por el id
-        var porId=document.getElementById("nombre").value;
+        var porId=document.getElementById("nombre2").value;
         var parte1='https://uelibertadorbolivar.github.io/web/boletasm/'
         var parte2='.pdf'
         var todo=parte1+porId+parte2;
-        document.getElementById("resultado").innerHTML= parte1+porId+parte2;
-        window.location=document.getElementById("resultado").innerHTML;
+        document.getElementById("resultado3").innerHTML= parte1+porId+parte2;
+        window.location=document.getElementById("resultado3").innerHTML;
     }
